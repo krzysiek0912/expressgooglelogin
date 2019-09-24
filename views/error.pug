@@ -1,0 +1,15 @@
+html
+    head
+        title Something went wrong
+        include ./component/head.pug
+    body
+        include ./component/header.pug
+        .wrapper.fadeInDown
+            .alert.alert-danger(role='alert')
+                h4.alert-heading Error!
+                p
+                    | Something went wrong.
+                hr
+                p.mb-0
+                    | Go to home page.
+        include ./component/footer.pug
